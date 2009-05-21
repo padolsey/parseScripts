@@ -22,6 +22,15 @@ parseScripts('mycoolstuff', function(unparsed){
     
 });
 
+First argument can be a string or RegExp, the type
+will be tested against this to target specific
+SCRIPT elements within the document.
+
+The second argument is a function to which the
+unprocessed textual content of the SCRIPT
+element will be passed; it's expected that valid
+JavaScript will be returned from the function...
+
 
 --
-More info: ___
+More info: Watch: JAMES.PADOLSEY.COM
